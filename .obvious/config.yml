@@ -1,0 +1,10 @@
+# Repo policy for autobuild agents — PushGuys/pushguys-site
+# Auto-detected from GitHub repo settings on 2026-10-14.
+branches:
+  default: main            # repo default branch
+  work: auto               # agents open setup/change PRs from scratch branches
+merge:
+  # GitHub allows merge commit, squash, and rebase; squash chosen as the
+  # default since the repo does not restrict any method.
+  method: squash
+  require_human_approval: true
